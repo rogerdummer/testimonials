@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    background-color: hsl(0, 0%, 81%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.cartao{
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    padding: 26px;
+    background-color: hsl(263, 55%, 52%);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.cartao__info{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 12px;
+    row-gap: 1px;
+    justify-content: center;
+}
+.cartao__info-imagem{
+    grid-row: span 2;
+    border-radius: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    height: 30px;
+}
+.cartao__info-nome{
+    font-weight: 600;
+    font-size: 13px;
+    align-self: center;
+    color: hsl(0, 0%, 100%);
+}
+.cartao__info-nome-dark{
+    font-weight: 600;
+    font-size: 13px;
+    align-self: center;
+    color: hsl(217, 19%, 35%);
+}
+.cartao__info-status{
+    font-weight: 500;
+    font-size: 13px;
+    color: hsl(0, 0%, 100%);
+    opacity: 0.5;
+}
+.cartao__info-status-dark{
+    font-weight: 500;
+    font-size: 13px;
+    color: hsl(217, 19%, 35%);
+    opacity: 0.5;
+}
+.cartao__titulo{
+    margin: 15px 0;
+    font-weight: 500;
+    font-size: 22px;
+    color: hsl(0, 0%, 100%);
+}
+.cartao__titulo-dark{
+    margin: 15px 0;
+    font-weight: 500;
+    font-size: 22px;
+    color: hsl(217, 19%, 35%);
+}
+.cartao__texto{
+    margin: 10px 0 20px 0;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    opacity: 0.5;
+}
+.cartao__texto-dark{
+    margin: 10px 0 20px 0;
+    font-weight: 600;
+    font-size: 15px;
+    color: hsl(217, 19%, 35%);
+    opacity: 0.5;
+}
+.cartao__cor2{
+    background-color: hsl(217, 19%, 35%);
+}
+.cartao__cor3{
+    background-color: white;
+}
+.cartao__cor4{
+    background-color: hsl(219, 29%, 14%)
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D232A;
+    color: #95999C;
+    height: 50px;
+    width: 100vw;
+}
