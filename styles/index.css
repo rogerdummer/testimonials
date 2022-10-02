@@ -76,6 +76,11 @@ body{
     color: hsl(217, 19%, 35%);
     opacity: 0.5;
 }
+.cartao__pos1{
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 0%;
+}
 .cartao__cor2{
     background-color: hsl(217, 19%, 35%);
 }
@@ -98,4 +103,37 @@ a{
     color: #95999C;
     height: 50px;
     width: 100vw;
+    margin: auto;
+    bottom: 0;
+    position: fixed;
+}
+@media screen and (min-width: 1440px){
+    .principal{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 20px;
+        margin: 90px auto;
+        height: 100%;
+        width: 80%;
+    }
+    .cartao{
+        width: auto;
+        margin: 0;
+    }
+    .cartao__pos1{
+        grid-column: span 2;
+        background-position: 84% 0%;
+    }
+    .cartao__pos3{
+        grid-column: 1;
+    }
+    .cartao__pos4{
+        grid-column: span 2;
+    }
+    .cartao__pos5{
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column: 4;
+    }
 }
